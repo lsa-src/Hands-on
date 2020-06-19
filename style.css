@@ -1,0 +1,89 @@
+body{
+    padding : 0;
+    margin: 0;
+    background: antiquewhite;
+}
+
+
+.navbar{
+    background : lightcoral;
+}
+
+.nav-link, .nav-barnd{
+    color : white;
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right: 1em !important;
+}
+
+.nav-link:hover{
+    color: #000;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.header{
+    background-image: url('img/backgroud.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+
+.description{
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align:center;
+}
+
+.description h1{
+    color:moccasin;
+}
+
+.description p{
+    font-size: 1em;
+    color:azure;
+    line-height: 1.5;
+}
+
+.description button{
+    border: seagreen;
+    background: seagreen;
+    border-radius: 0;
+    color: #fff;
+}
+
+.description button:hover{
+    border: 1pix solid white;
+    background: #fff;
+    color: #000;
+}
+
+.features{
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.features-title{
+    color:#323;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
